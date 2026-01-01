@@ -14,10 +14,11 @@ This API allows users to:
 
 ## How to Run
 1. Clone the repository: git clone https://github.com/ainabilah7/HotelBookingAPI.git
-2. Navigate to the project folder: cd HotelBookingAPI/HotelBookingAPI
+2. Navigate to the project folder: cd HotelBookingAPI
 3. Restore dependencies: dotnet restore
-4. Run the application : dotnet run
-5. Open Swagger in browser for testing: http://localhost:5118/swagger
+4. Build the project: dotnet build
+5. Run the application : dotnet run
+6. Open Swagger in browser for testing: http://localhost:5118/swagger
 
 ## API endpoints
 - GET /api/bookings
@@ -41,6 +42,3 @@ This API allows users to:
 	- Application = logics
 	- Data = database
 - Used **Dependency Injection** for BookingService.
-
-## GitHub Repo
-[View the code on GitHub](https://github.com/ainabilah7/HotelBookingAPI)
