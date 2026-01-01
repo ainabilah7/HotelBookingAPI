@@ -13,7 +13,7 @@ This API allows users to:
 - Swagger for API documentation
 
 ## How to Run
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/your-username/HotelBookingAPI.git
 2. Navigate to the project folder: cd HotelBookingAPI/HotelBookingAPI
 3. Restore dependencies: dotnet restore
 4. Run the application : dotnet run
